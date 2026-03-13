@@ -117,4 +117,4 @@ Possible future enhancements include:
 ## Author
 
 Divyansh Malik
-Aspiring Data Analyst | SQL | Python | Data Visualization
+SQL | Python | Data Visualization
