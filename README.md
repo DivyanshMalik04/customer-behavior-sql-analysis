@@ -1,121 +1,127 @@
 # Customer Behavior & Revenue Analytics using SQL
 
-## Project Overview
+Project Overview
 
-This project analyzes an e-commerce transaction dataset to uncover insights about customer purchasing behavior, product demand, and revenue trends.
-Using SQL queries and data visualization, the project explores key business metrics and identifies patterns that can support data-driven decision making.
+This project analyzes customer purchasing behavior using SQL to uncover patterns in sales, product demand, and customer spending habits. The goal is to extract actionable business insights that can help businesses understand their customers better and make data-driven decisions.
 
-The analysis focuses on understanding:
+The analysis focuses on identifying top-performing product categories, high-value customers, and overall purchasing trends.
 
-* Customer spending behavior
-* Product performance
-* Geographic revenue distribution
-* Monthly sales trends
-* Customer segmentation
+Dataset Description
 
----
+The dataset contains customer transaction records with information such as:
 
-## Dataset
+Customer ID
 
-The dataset contains historical e-commerce transactions with the following key fields:
+Product Category
 
-* **InvoiceNo** – Unique order identifier
-* **StockCode** – Product code
-* **Description** – Product description
-* **Quantity** – Number of units purchased
-* **InvoiceDate** – Transaction date
-* **UnitPrice** – Price per unit
-* **CustomerID** – Unique customer identifier
-* **Country** – Customer location
+Purchase Amount
 
----
+Transaction Date
 
-## Tools & Technologies
+Region
 
-* **SQL** – Data querying and analysis
-* **Python (Pandas)** – Data handling
-* **SQLite** – SQL database inside notebook
-* **Matplotlib** – Data visualization
-* **Google Colab / Kaggle Notebook** – Analysis environment
+These attributes allow us to analyze customer behavior, spending patterns, and product popularity.
 
----
+Tools & Technologies Used
 
-## Analysis Performed
+SQL (SQLite)
 
-The project performs multiple SQL analyses including:
+Python
 
-* Total revenue calculation
-* Top-selling products analysis
-* Monthly revenue trends
-* Country-wise revenue distribution
-* Customer lifetime value analysis
-* Customer purchase frequency
-* Customer segmentation based on spending
+Google Colab
 
-More than **20 SQL queries** were executed to explore the dataset and extract meaningful insights.
+SQL was used to perform data querying and analysis, while Python was used for executing queries and managing the dataset.
 
----
+Key Business Questions Explored
 
-## Visualizations
+Which product categories generate the highest revenue?
 
-The project includes visualizations to better understand the data:
+Who are the top spending customers?
 
-* Monthly Revenue Trend
-* Top 10 Products by Units Sold
-* Revenue by Country
-* Customer Segmentation Distribution
+What are the overall sales trends?
 
-These charts help highlight key sales patterns and customer behavior.
+Which regions contribute the most to sales?
 
----
+What are the most popular product categories?
 
-## Key Insights
+These questions simulate real business analytics scenarios where companies analyze customer data to optimize marketing strategies and increase revenue.
 
-Some important insights from the analysis:
+SQL Concepts Used
 
-* A small number of products generate a large portion of total sales.
-* High-value customers contribute significantly to overall revenue.
-* Sales are concentrated in a few key geographic regions.
-* Monthly sales trends indicate fluctuations that may suggest seasonal demand.
-* Most customers fall into the low-to-medium spending category.
+This project demonstrates several core SQL techniques, including:
 
----
+Data filtering using WHERE
 
-## Project Structure
+Aggregation using SUM, COUNT, and AVG
 
-```
+Grouping data using GROUP BY
+
+Sorting results using ORDER BY
+
+Basic analytical queries for business insights
+
+These techniques are commonly used in data analyst and business intelligence workflows.
+
+Example Analysis
+Top Product Categories by Revenue
+
+SQL queries were used to identify which product categories contribute the most to overall revenue.
+
+Insight:
+Certain categories consistently generate higher revenue, indicating stronger customer demand and potential opportunities for targeted marketing campaigns.
+
+High Value Customers
+
+Customer spending was aggregated to identify the top customers contributing the most revenue.
+
+Insight:
+A small group of customers often contributes a large portion of total revenue, highlighting the importance of customer retention strategies.
+
+Project Workflow
+
+Dataset → Data Storage (SQLite) → SQL Analysis → Business Insights
+
+Repository Structure
 customer-behavior-sql-analysis
-│
-├── customer_behavior_analysis.ipynb
-├── dataset.csv
-└── README.md
-```
 
----
+dataset/
+    customer_data.csv
 
-## Learning Outcomes
+notebooks/
+    analysis.ipynb
 
-Through this project, the following skills were applied:
+sql_queries/
+    analysis_queries.sql
 
-* Writing advanced SQL queries
-* Performing customer and revenue analytics
-* Data visualization for business insights
-* Translating raw transaction data into actionable insights
+README.md
+Key Learnings
 
----
+Through this project, I gained hands-on experience with:
 
-## Future Improvements
+Writing SQL queries for real-world business questions
 
-Possible future enhancements include:
+Performing exploratory data analysis using SQL
 
-* Building an interactive dashboard using Power BI or Looker Studio
-* Performing customer retention analysis
-* Implementing predictive models for sales forecasting
+Extracting meaningful insights from transactional datasets
 
----
+Structuring a data analytics project from data to insights
 
-## Author
+Future Improvements
+
+Possible enhancements to this project include:
+
+Creating interactive dashboards using Power BI
+
+Implementing customer segmentation analysis
+
+Adding data visualizations for deeper insights
+
+Applying machine learning models for purchase prediction
+
+Author
 
 Divyansh Malik
+Aspiring Data Analyst / Data Science Enthusiast
 
-SQL | Python | Data Visualization
+GitHub:
+https://github.com/DivyanshMalik04
