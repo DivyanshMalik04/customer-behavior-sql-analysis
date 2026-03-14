@@ -1,127 +1,133 @@
-# Customer Behavior & Revenue Analytics using SQL
+# Customer Behavior Analysis using SQL
 
-Project Overview
+## Project Overview
 
-This project analyzes customer purchasing behavior using SQL to uncover patterns in sales, product demand, and customer spending habits. The goal is to extract actionable business insights that can help businesses understand their customers better and make data-driven decisions.
+This project analyzes **customer purchasing behavior** using SQL to uncover patterns in sales, product demand, and customer spending habits. The goal is to extract **actionable business insights** that help businesses understand their customers and make data-driven decisions.
 
 The analysis focuses on identifying top-performing product categories, high-value customers, and overall purchasing trends.
 
-Dataset Description
+---
 
-The dataset contains customer transaction records with information such as:
+## Dataset Description
 
-Customer ID
+The dataset contains customer transaction records with attributes such as:
 
-Product Category
+* Customer ID
+* Product Category
+* Purchase Amount
+* Transaction Date
+* Region
 
-Purchase Amount
+These attributes allow analysis of **customer behavior, spending patterns, and product popularity**.
 
-Transaction Date
+---
 
-Region
+## Tools & Technologies Used
 
-These attributes allow us to analyze customer behavior, spending patterns, and product popularity.
+* **SQL (SQLite)**
+* **Python**
+* **Google Colab**
 
-Tools & Technologies Used
+SQL was used to perform **data querying and analysis**, while Python was used to run the queries and manage the dataset.
 
-SQL (SQLite)
+---
 
-Python
+## Key Business Questions Explored
 
-Google Colab
+1. Which product categories generate the highest revenue?
+2. Who are the top spending customers?
+3. What are the overall sales trends?
+4. Which regions contribute the most to sales?
+5. What are the most popular product categories?
 
-SQL was used to perform data querying and analysis, while Python was used for executing queries and managing the dataset.
+These questions simulate **real-world analytics scenarios** where companies analyze customer data to optimize marketing strategies and increase revenue.
 
-Key Business Questions Explored
+---
 
-Which product categories generate the highest revenue?
+## SQL Concepts Used
 
-Who are the top spending customers?
+The project demonstrates several important SQL techniques:
 
-What are the overall sales trends?
+* `WHERE` for filtering data
+* `SUM`, `COUNT`, `AVG` for aggregation
+* `GROUP BY` for grouping records
+* `ORDER BY` for sorting results
+* Analytical queries for business insights
 
-Which regions contribute the most to sales?
+These are **core SQL skills used by data analysts** in industry.
 
-What are the most popular product categories?
+---
 
-These questions simulate real business analytics scenarios where companies analyze customer data to optimize marketing strategies and increase revenue.
+## Example Analysis
 
-SQL Concepts Used
+### Top Product Categories by Revenue
 
-This project demonstrates several core SQL techniques, including:
+SQL queries were used to determine which product categories contribute the most to total revenue.
 
-Data filtering using WHERE
+**Insight:**
+Certain categories consistently generate higher revenue, indicating strong customer demand and potential opportunities for targeted marketing campaigns.
 
-Aggregation using SUM, COUNT, and AVG
+---
 
-Grouping data using GROUP BY
+### High Value Customers
 
-Sorting results using ORDER BY
+Customer spending was aggregated to identify the **top customers contributing the most revenue**.
 
-Basic analytical queries for business insights
+**Insight:**
+A relatively small number of customers contribute a significant portion of revenue, highlighting the importance of customer retention strategies.
 
-These techniques are commonly used in data analyst and business intelligence workflows.
+---
 
-Example Analysis
-Top Product Categories by Revenue
+## Project Workflow
 
-SQL queries were used to identify which product categories contribute the most to overall revenue.
+Dataset → SQLite Database → SQL Analysis → Business Insights
 
-Insight:
-Certain categories consistently generate higher revenue, indicating stronger customer demand and potential opportunities for targeted marketing campaigns.
+---
 
-High Value Customers
+## Repository Structure
 
-Customer spending was aggregated to identify the top customers contributing the most revenue.
-
-Insight:
-A small group of customers often contributes a large portion of total revenue, highlighting the importance of customer retention strategies.
-
-Project Workflow
-
-Dataset → Data Storage (SQLite) → SQL Analysis → Business Insights
-
-Repository Structure
 customer-behavior-sql-analysis
+│
+├── dataset/
+│ └── customer_data.csv
+│
+├── notebooks/
+│ └── analysis.ipynb
+│
+├── sql_queries/
+│ └── analysis_queries.sql
+│
+└── README.md
 
-dataset/
-    customer_data.csv
+---
 
-notebooks/
-    analysis.ipynb
+## Key Learnings
 
-sql_queries/
-    analysis_queries.sql
+Through this project, I gained practical experience with:
 
-README.md
-Key Learnings
+* Writing SQL queries for business analytics
+* Performing exploratory data analysis using SQL
+* Extracting insights from transactional datasets
+* Structuring a complete analytics workflow from raw data to insights
 
-Through this project, I gained hands-on experience with:
+---
 
-Writing SQL queries for real-world business questions
+## Future Improvements
 
-Performing exploratory data analysis using SQL
+Potential enhancements for this project include:
 
-Extracting meaningful insights from transactional datasets
+* Creating an interactive dashboard using **Power BI**
+* Performing **customer segmentation analysis**
+* Adding **data visualizations for deeper insights**
+* Applying **machine learning models for purchase prediction**
 
-Structuring a data analytics project from data to insights
+---
 
-Future Improvements
+## Author
 
-Possible enhancements to this project include:
-
-Creating interactive dashboards using Power BI
-
-Implementing customer segmentation analysis
-
-Adding data visualizations for deeper insights
-
-Applying machine learning models for purchase prediction
-
-Author
-
-Divyansh Malik
+**Divyansh Malik**
 Aspiring Data Analyst / Data Science Enthusiast
 
 GitHub:
-https://github.com/DivyanshMalik04
+[https://github.com/DivyanshMalik04](https://github.com/DivyanshMalik04)
+
